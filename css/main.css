@@ -133,7 +133,10 @@
   transition: 0.3s ease;
 }
 @media screen and (max-width: 600px) {
+
   .btn__box {
+      flex-direction: column;
+
     align-items: flex-start;
   }
 }
