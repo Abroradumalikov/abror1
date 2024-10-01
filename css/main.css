@@ -143,4 +143,8 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .area__population__filter {
+    flex-direction: column;
+    row-gap: 5px;
+  }
 }
