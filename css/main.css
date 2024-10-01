@@ -86,7 +86,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 60%;
+  width: 100%;
   border-radius: 5px;
   z-index: 100;
   top: 40px;
@@ -112,8 +112,7 @@
   border-radius: 10px;
   transition: 0.3s ease;
   display: block;
-  width: 50%;
-  margin-top: 10px;
+  width: 100%;
 }
 
 .menu {
@@ -132,6 +131,12 @@
 .filter-region-menu:hover {
   background-color: #4a6572;
   transition: 0.3s ease;
+}
+.area__population__filter {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  column-gap: 5px;
 }
 @media screen and (max-width: 600px) {
   .btn__box {
