@@ -1,0 +1,135 @@
+* {
+  list-style: none;
+}
+.div {
+  width: 200px;
+  background-color: #2b3945;
+  border: none;
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 130px;
+  margin-bottom: 10px;
+}
+.dark-btn,
+.light-btn {
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+}
+
+.info {
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 10px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.bg-color {
+  background-color: #292f36;
+}
+.white {
+  color: white;
+}
+.src {
+  fill: white;
+}
+.btn__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hidden {
+  display: none;
+}
+.img-wit {
+  width: 40px;
+}
+.filter-btn,
+.area-btn {
+  background-color: #2b3945;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.filter-btn {
+  margin-left: 20px;
+}
+.filter-btn:hover,
+.area-btn:hover {
+  background-color: #4a6572;
+  transition: 0.3s ease;
+}
+.filter__menu {
+  display: none;
+  position: absolute;
+  background-color: #2b3945;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 150%;
+  border-radius: 5px;
+  z-index: 100;
+  top: 40px;
+  text-align: center;
+}
+
+.filter__menu li {
+  padding: 10px 15px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box; /* Kenglikni butunlay qamrab olish uchun */
+}
+
+.menu1 {
+  display: block;
+}
+
+.filter-region-menu {
+  cursor: pointer;
+  color: white;
+  background-color: #2b3945;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  display: block;
+}
+
+.menu {
+  position: relative;
+}
+
+.europe:hover,
+.africa:hover,
+.americas:hover,
+.asia:hover {
+  background-color: #4a657263;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+
+.filter-region-menu:hover {
+  background-color: #4a6572;
+  transition: 0.3s ease;
+}
