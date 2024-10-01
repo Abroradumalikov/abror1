@@ -73,9 +73,7 @@
   font-size: 16px;
   transition: 0.3s ease;
 }
-.filter-btn {
-  margin-left: 20px;
-}
+
 .filter-btn:hover,
 .area-btn:hover {
   background-color: #4a6572;
@@ -88,7 +86,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 150%;
+  width: 60%;
   border-radius: 5px;
   z-index: 100;
   top: 40px;
@@ -114,6 +112,7 @@
   border-radius: 10px;
   transition: 0.3s ease;
   display: block;
+  width: 50%;
 }
 
 .menu {
@@ -132,4 +131,9 @@
 .filter-region-menu:hover {
   background-color: #4a6572;
   transition: 0.3s ease;
+}
+@media screen and (max-width: 600px) {
+  .btn__box {
+    align-items: flex-start;
+  }
 }
