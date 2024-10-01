@@ -134,7 +134,7 @@
 }
 .area__population__filter {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   column-gap: 5px;
 }
