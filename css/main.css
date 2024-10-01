@@ -113,6 +113,7 @@
   transition: 0.3s ease;
   display: block;
   width: 50%;
+  margin-top:10px;
 }
 
 .menu {
@@ -132,11 +133,13 @@
   background-color: #4a6572;
   transition: 0.3s ease;
 }
+.filter-btn {
+    margin-left: 20px;
+}
 @media screen and (max-width: 600px) {
 
   .btn__box {
-      flex-direction: column;
-
+    flex-direction: column;
     align-items: flex-start;
   }
 }
