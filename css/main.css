@@ -97,7 +97,7 @@
   padding: 10px 15px;
   color: white;
   width: 100%;
-  box-sizing: border-box; /* Kenglikni butunlay qamrab olish uchun */
+  box-sizing: border-box;
 }
 
 .menu1 {
